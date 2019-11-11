@@ -1,4 +1,4 @@
-$primary_font_color: #FC5C04;
+@import "partials/variables";
 
 h1 {
     color: $primary_font_color;
@@ -8,3 +8,10 @@ foter {
     color: $primary_font_color;
 }
 
+.primary-btn {
+    background: navy;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
