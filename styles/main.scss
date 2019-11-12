@@ -8,10 +8,14 @@ foter {
     color: $primary_font_color;
 }
 
-.primary-btn {
+@mixin btn {
     background: navy;
     color: white;
     border-radius: 5px;
     font-size: 20px;
     padding: 10px;
+}
+
+.primary-btn {
+      @include btn;   
 }
