@@ -1,5 +1,5 @@
-.container {
+.container-fluid {
   background: blue;
-  height: 300px;
+  min-height: 300px;
 }
 /*# sourceMappingURL=main.css.map */
