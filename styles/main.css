@@ -51,6 +51,14 @@
   padding-bottom: 18px;
 }
 
+.hide {
+  color: red;
+}
+
+.show {
+  color: #FBB019;
+}
+
 button {
   background: grey;
   position: center;
